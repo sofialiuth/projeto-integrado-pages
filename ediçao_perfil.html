@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ediçao_perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&display=swap" rel="stylesheet">
+    <title>PROJETO INTEGRADO</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="icones">
+            <a href="index.html"> <img class="icone" src="./imagens/icon_home.png" alt=""> </a>
+            <a href="perfil.html"> <img class="icone" src="./imagens_rosa/icon_user_rosa.png" alt=""> </a>
+            <a href="grupo.html"> <img class="icone" src="./Imagens/icon_group.png" alt=""> </a>
+            <a href="grafico.html"> <img class="icone" src="./Imagens/icon_ball.png" alt=""> </a>
+            <a href=""> <img class="icone" src="./Imagens/icon_bell.png" alt=""></a>
+        </div>
+        <input id="pesquisa" type="text" placeholder="Pesquisa">
+        <a href=""> <img class="icone" src="./Imagens/icon_search.png" alt=""> </a>
+    </header>
+
+    <main>
+
+        <div id="div_1">
+            <div id="pefil_botao">
+                <img id="persona" src="./imagens/jaqueline.jpg" alt="">
+                <a href="">
+                    <button>Editar imagem</button>
+                </a>
+            </div>
+
+
+        </div>
+
+        <div id="div_2">
+            <input id="input_1" type="text" placeholder="Nome">
+
+            <label id="label" for="">Data de nascimento:</label>
+            <input id="input_2" type="date">
+
+            <select name="genero" id="input_3_4">
+                <option value="" selected>Gênero</option>
+                <option value="">Feminino</option>
+                <option value="">Masculino</option>
+                <option value="">Não-Binário</option>
+                <option value="">Não identifcar</option>
+            </select>
+
+            <select name="localizacao" id="input_3_4">
+                <option value="" selected>Localizção</option>
+                <optgroup label="ES">
+                    <option value="">Linhares</option>
+                    <option value="">Vila Velha</option>
+                    <option value="">Vitoria</option>
+                    <option value="">São Matheus</option>
+                </optgroup>
+                <optgroup label="RJ">
+                    <option value="">Cabo Frio</option>
+                    <option value="">Duque de Caxias</option>
+                    <option value="">Niterói</option>
+                    <option value="">Rio de janeiro</option>
+                </optgroup>
+                <optgroup label="SP">
+                    <option value="">Campinas</option>
+                    <option value="">Guarulhos</option>
+                    <option value="">São Paulo</option>
+                    <option value="">São José dos Campos</option>
+                </optgroup>
+
+            </select>
+
+            <input id="input_1" type="text" placeholder="Cargo">
+            <input id="input_1" type="tel" placeholder="Telefone">
+            <input id="input_1" type="email" placeholder="E-mail">
+
+            <div id="botoes_2">
+                <a href="perfil.html"> <button id="b_salvar">Salvar</button></a>
+                <a href="perfil.html"> <button id="b_cancelar">Cancelar</button></a>
+            </div>
+        </div>
+
+        <div id="div_3">
+
+            <div id="caixinha_1">
+                <div id="caixinha_1_input">
+
+                    <select name="classe" id="selects">
+                        <option value="" selected>Classe</option>
+                        <option value="">Música</option>
+                        <option value="">Tech</option>
+                        <option value="">Livro</option>
+                        <option value="">Esporte </option>
+                    </select>
+
+                    <select name="subclasse" id="selects">
+                        <option value="" selected>Subclasse</option>
+                        <optgroup label="Música">
+                            <option value="">Violão</option>
+                            <option value="">Violino</option>
+                            <option value="">Piano</option>
+                            <option value="">Teclado</option>
+                        </optgroup>
+                        <optgroup label="Tech">
+                            <option value="">Edição de fotos</option>
+                            <option value="">Python</option>
+                            <option value="">Javascript</option>
+                        </optgroup>
+                        <optgroup label="Livro">
+                            <option value="">Drama</option>
+                            <option value="">Romance</option>
+                            <option value="">Terror</option>
+                            <option value="">Ficção científica</option>
+                        </optgroup>
+                        <optgroup label="Esporte">
+                            <option value="">Vôlei</option>
+                            <option value="">Vôlei de praia</option>
+                            <option value="">Futebol</option>
+                            <option value="">Basquete</option>
+                        </optgroup>
+                    </select>
+
+                </div>
+
+                <div>
+                    <a href=""><button>Adicionar talento</button></a>
+                </div>
+            </div>
+
+            <div id="caixinha_2">
+
+                <div id="lixo">
+                    <a id="a_lixeira" href=""><img id="lixeira" src="./imagens/lixeira.png" alt=""></a>
+                    <a id="a_lixeira" href=""><img id="lixeira" src="./imagens/lixeira.png" alt=""></a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="coluna_classe">Classe</th>
+                            <td id="coluna_par">Música</td>
+                            <td id="coluna_impar">Esporte</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="coluna_classe">Subclasse</th>
+                            <td id="coluna_par">Violino</td>
+                            <td id="coluna_impar">Vôlei de praia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="caixinha_3">
+                <h4>Escolha uma classe e uma subclasse para inserir seu talento</h4>
+            </div>
+
+        </div>
+        <div></div>
+        <div></div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <img id="fortes" src="./Imagens/FORTES_LOGOMARCA_moldura-e1660776738611.png" alt="">
+        <p> Criado em 2023</p>
+        <a href=""> <img id="help" src="./Imagens/icon_help.png" alt=""> </a>
+    </footer>
+
+</body>
+
+</html>

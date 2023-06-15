@@ -1,0 +1,344 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 13vh;
+    background-color: #2274A5;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    background-color: #8BCDF3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 54px;
+    
+}
+
+.icone:hover,
+#help:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+}
+
+#pesquisa {
+    width: 35%;
+    border-radius: 10px;
+    border: 0px;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: 'Corben', cursive;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+}
+
+
+
+
+
+
+#div_1 {
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+
+
+#pefil_botao {
+    display: flex;
+    flex-direction: column;
+}
+
+#persona {
+    width: 35vh;
+    border: 0%;
+    border-radius: 25px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #07CB97;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Corben', cursive;
+}
+
+button:hover {
+    background-color: #09d7a0;
+    color: #ffffff;
+}
+
+#div_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#input_1 {
+    width: 350px;
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    margin-top: 12px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Corben', cursive;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+}
+
+label {
+    margin-top: 5px;
+    font-family: 'Corben', cursive;
+    color: #3f3f3f;
+}
+
+#input_2 {
+    width: 150px;
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Corben', cursive;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+}
+
+#input_3_4 {
+    width: 200px;
+    border-radius: 10px;
+    border: 0px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Corben', cursive;
+    background-color: rgb(255, 255, 255);
+    color: #808080;
+}
+
+
+
+
+
+#botoes_2 {
+    display: flex;
+    justify-content: center;
+}
+
+#b_salvar {
+    height: 60px;
+    width: 160px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border: 0px;
+    background-color: #07CB97;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Corben', cursive;
+}
+
+#b_salvar:hover {
+    background-color: #09d7a0;
+    color: #ffffff;
+}
+
+#b_cancelar {
+    height: 60px;
+    width: 160px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: 0px;
+    background-color: #DA4167;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Corben', cursive;
+}
+
+#b_cancelar:hover {
+    background-color: #e7456d;
+    color: #ffffff;
+}
+
+
+
+#div_3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#caixinha_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#selects {
+    font-size: 18px;
+    font-family: 'Corben', cursive;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    color: #808080;
+    margin: 5px;
+    width: 150px;
+}
+
+#caixinha_1_input {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#caixinha_2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#caixinha_3 {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#lixo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-right: 5px;
+}
+
+#lixeira {
+    height: 25px;
+    width: 25x;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: 2px separate rgb(0, 0, 0);
+    display: flex;
+    font-size: 13px;
+    font-family: 'Corben', cursive;
+
+}
+
+table td, table th {
+    padding: 8px;
+}
+
+tr {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #8BCDF3;
+}
+
+#coluna_impar {
+    background-color: #DFDFDF;
+}
+
+#coluna_par {
+    background-color: #FFFFFF;
+}
+
+#coluna_classe {
+    background-color: #B5B5B5;
+}
+
+
+
+h4 {
+    font-size: 18px;
+    font-family: 'Corben', cursive;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #2274A5;
+    color: white;
+    bottom: 0%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    padding: 0px;
+}
+
+#fortes {
+    margin-left: 20px;
+    width: 100px;
+}
+
+footer p {
+    font-size: 25px;
+    font-family: 'Corben', cursive;
+}
+
+#help {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
