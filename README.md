@@ -1,5 +1,5 @@
 # Projeto Integrado
-Parte do projeto integrado da discplina de Construção de Software para Web lecionada pelo professor Otávio Lube
+Parte do projeto integrado da disciplina de Construção de Software para Web lecionada pelo professor Otávio Lube
 - **TEMA:** Banco de talentos para a empresa Fortes.
 - **ALUNOS:** Luiz Gustavo Lovato Lessa, Renan Carvalho Manera, Sofia Liuth Costa e Welington Carvalho Branco Saldanha Junior.
 - **TURMA:** CC1Ma
